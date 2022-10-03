@@ -29,13 +29,11 @@ const days_of_the_week = [
     "Ama",
   ]
 
-
-
 function get_akan_name () {
-  let day = document.getElementById("dob");
+  let day = document.getElementById("dob").value;
   console.log (day)
-  let month = document.getElementById("mob");
-  let year = document.getElementById("yob");
+  let month = document.getElementById("mob").value;
+  let year = document.getElementById("yob").value;
 
   if ((day <= 0) || (day > 31)) {
     day = prompt("Please add a valid Day of Birth")
