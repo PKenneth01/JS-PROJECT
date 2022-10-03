@@ -64,7 +64,7 @@ function get_akan_name() {
     const twoLetterYear = year.substring(2, 4);
     // call day_of_week_formular function;
     const returned_day_of_week = day_of_week_formular(century, twoLetterYear, month, day);
-
+    // console.log(returned_day_of_week)
 
     // print the day the person was born
     let message = "";
