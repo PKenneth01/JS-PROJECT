@@ -29,6 +29,11 @@ const days_of_the_week = [
     "Ama",
   ]
 
+  function day_of_week_formular(century, year, month, day) {
+    const day_of_week = ((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
+    return Math.floor(day_of_week); //make it whole number;
+  }
+
 function get_akan_name () {
   let day = document.getElementById("dob").value;
   console.log (day)
