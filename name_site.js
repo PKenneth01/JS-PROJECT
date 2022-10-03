@@ -34,13 +34,13 @@ function day_of_week_formular(century, year, month, day) {
 }
 
 function get_akan_name() {
-  /** connect DOM to script */
+ 
   let gender = document.getElementById("gender").value;
   let day = document.getElementById("dob").value;
   let month = document.getElementById("mob").value;
   let year = document.getElementById("yob").value;
 
-  /**check validity */
+
   if (!gender) {
      gender = prompt("Please add a valid gender")
   }
