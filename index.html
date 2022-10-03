@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="name_site.css">
-</head>
-<body>
-  <div class="container py-3">
-    <div class="p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal">KNOW YOUR AKAN NAME</h1>
-      <p class="fs-5 text-muted">Akan names are inferred from Ghanian culture. Regularly in Ghana, children are given their first name as a 'day name' which compares to the day within the week they were born.</p>
-    </div>
-<p>
- Let us help you find your Akan name today. 
- <br> Enter gender and birth date in the format (MM/DD/YYYY), then click "Submit" to submit the form:</br>
-</p>
-<div>
-    <form>
-      <p>
-        <label for="gender" class="form-label">Gender</label>
-        <select id="gender" class="form-select" name="gender" placeholder="Select Gender">
-            <div>
-                <option class="medium">Select Gender</option>
-              </div>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-      </p>
-      <p>
-        <label class="form-label">Day of birth</label>
-        <input id="dob" class="form-control" name="dob" type="number" placeholder="day of birth" />
-      </p>
-      <p>
-        <label class="form-label">Month of birth</label>
-        <input id="mob" class="form-control" name="mob" type="number" placeholder="month of birth" />
-      </p>
-      <p>
-        <label class="form-label">Year of birth</label>
-        <input id="yob" class="form-control" name="yob" type="number" placeholder="year of birth" />
-      </p>
-      <p><input type="submit"  onclick="get_akan_name()" class="btn btn-primary" value="Submit" name="submit"></p>
-    </form>
-</div>
-  </div>
-  <script src="name_site.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="name_site.css">
+   </head>
+   <body>
+      <div class="container py-3">
+         <div class="p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">KNOW YOUR AKAN NAME</h1>
+            <p class="fs-5 text-muted">Akan names are inferred from Ghanian culture. Regularly in Ghana, children are given their first name as a 'day name' which compares to the day within the week they were born.</p>
+         </div>
+         <p>
+            Let us help you find your Akan name today. 
+            <br> Enter gender and birth date in the format (MM/DD/YYYY), then click "Submit" to submit the form:</br>
+         </p>
+         <div>
+            <form>
+               <p>
+                  <label for="gender" class="form-label">Gender</label>
+                  <select id="gender" class="form-select" name="gender" placeholder="Select Gender">
+               <div>
+               <option class="medium">Select Gender</option>
+               </div>
+               <option value="male">Male</option>
+               <option value="female">Female</option>
+               </select>
+               </p>
+               <p>
+                  <label class="form-label">Day of birth</label>
+                  <input id="dob" class="form-control" name="dob" type="number" placeholder="day of birth" />
+               </p>
+               <p>
+                  <label class="form-label">Month of birth</label>
+                  <input id="mob" class="form-control" name="mob" type="number" placeholder="month of birth" />
+               </p>
+               <p>
+                  <label class="form-label">Year of birth</label>
+                  <input id="yob" class="form-control" name="yob" type="number" placeholder="year of birth" />
+               </p>
+               <p><input type="submit"  onclick="get_akan_name()" class="btn btn-primary" value="Submit" name="submit"></p>
+            </form>
+         </div>
+      </div>
+      <script src="name_site.js"></script>
+   </body>
 </html>
