@@ -1,24 +1,23 @@
-body{
-    background-color: aliceblue;
-    background-position: 0%;
-    margin: auto;
-    padding:0%
+body {
+	background-color: aliceblue;
+	background-position: 0%;
+	margin: auto;
+	padding: 0%
 }
 
-h1{
-    font-style: oblique;
-    text-decoration-line: underline;
+h1 {
+	font-style: oblique;
+	text-decoration-line: underline;
 }
 
-body{
-    text-align: center;
-    background-image: url(./images/africa.jpg);
-    background-size: cover;
-    color: rgb(0, 0, 0);
+body {
+	text-align: center;
+	background-image: url(./images/africa.jpg);
+	background-size: cover;
+	color: rgb(0, 0, 0);
 }
 
-p{
-    color: rgb(255, 255, 255);
-    font-size: larger;
+p {
+	color: rgb(255, 255, 255);
+	font-size: larger;
 }
-
