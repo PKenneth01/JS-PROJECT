@@ -34,13 +34,13 @@ function day_of_week_formular(century, year, month, day) {
 }
 
 function get_akan_name() {
-  /** get current value from the DOM/form */
+  /** connect DOM to script */
   let gender = document.getElementById("gender").value;
   let day = document.getElementById("dob").value;
   let month = document.getElementById("mob").value;
   let year = document.getElementById("yob").value;
 
-  /** validations as per the assignment requirements */
+/**check validity */
   if (!gender) {
     gender = prompt("Please add a valid gender")
   }
@@ -57,14 +57,14 @@ function get_akan_name() {
     month = prompt("month is greater than 12. Please add a valid month of birth")
   }
   else {
-    /** validation are okey, so we print the akan name */
 
-    /** prepare the parameters for the function day_of_week_formular */
+
+    /** parameters */
     const century = year.substring(0, 2);
     const twoLetterYear = year.substring(2, 4);
     // call day_of_week_formular function;
     const returned_day_of_week = day_of_week_formular(century, twoLetterYear, month, day);
-    // console.log(returned_day_of_week)
+
 
     // print the day the person was born
     let message = "";
